@@ -35,6 +35,7 @@ To fix, comment out the following line from `/usr/lib/tmpfiles.d/tmp.conf`.
 D /tmp 1777 root root -
 ```
 
+**This change below resolves similar error message when creating ubuntu 20.04 server template.**
 Then add the following to `/lib/systemd/system/open-vm-tools.service`.
 
 ```
